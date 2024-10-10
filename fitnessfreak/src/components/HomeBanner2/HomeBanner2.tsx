@@ -1,6 +1,5 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import { Pagination } from 'swiper';
 
 import './HomeBanner2.css'
 
@@ -102,6 +101,10 @@ const HomeBanner2 = () => {
                 <div className='swiper-slide'
                   style={{
                     backgroundImage: `url(${item.imageUrl})`,
+                  }}
+
+                  onClick={() => {
+                    window.location.href = `/workout/${item.type}`
                   }}
                
                 >

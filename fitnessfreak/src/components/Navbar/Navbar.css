@@ -30,7 +30,7 @@ nav a {
  }
 
  nav button {
-    background-color: var(--col);
+    background-color: var(--col1);
     border: none;
     outline: none;
     cursor: pointer;
@@ -41,3 +41,4 @@ nav a {
     padding: 10px;
     border-radius: 5px;
  }
+ 
